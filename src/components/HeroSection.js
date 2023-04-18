@@ -36,7 +36,12 @@ function HeroSection() {
                 >
                     <LogoAnimation></LogoAnimation>
                 </motion.div>
-                <Typography
+                <motion.div
+                    initial={{ opacity: 0, y: 250 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    transition={{ duration: 1 }}
+                >
+                     <Typography
                     variant='h5'
                     textAlign={"center"}
                     color={"white"}
@@ -45,6 +50,8 @@ function HeroSection() {
                     {" "}
                     We enable people to own a home and have a bright future.{" "}
                 </Typography>
+                </motion.div>
+               
             </Box>
             <Box
                 m={5}
