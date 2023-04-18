@@ -1,0 +1,26 @@
+.App {
+  background-color: rgb(241, 168, 168);
+  
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('../public/images/background.jpg');
+}
+
+
+
+circle
+ {
+  stroke-width: 200px;
+  stroke-linecap: round;
+  fill: transparent;
+}
+
+#form-container{
+
+  
+  width: 80%;
+  height: 80%;
+}
