@@ -33,10 +33,10 @@ function Manifesto() {
                     <Box id='pillars-wraper'  m={2} sx={{width:'350px' , height:'400px' , display:'flex' , flexDirection:'column' ,borderRadius:'15px 15px'  , justifyContent:'center' , gap:'15px',  backgroundImage:
                         "linear-gradient(to right, rgb(130, 113, 255), rgb(130, 133, 245))",}}>
                             
-                        <Typography variant='h5' sx={{color:'white' , textAlign:'center'}}> <Buildings  size={92} /> </Typography>
-                        <Typography variant='h5' sx={{color:'white' , textAlign:'center'}}> Create a cross border </Typography>
-                        <Typography variant='h5' sx={{color:'white' , textAlign:'center'}}> Unified market for buying </Typography>
-                        <Typography variant='h5' sx={{color:'white' , textAlign:'center'}}> Selling real estate </Typography>
+                        <Typography  variant='h5' sx={{color:'white' , textAlign:'center'}}> <Buildings  size={92} /> </Typography>
+                        <Typography  variant='h5' sx={{color:'white' , textAlign:'center'}}> Create a cross border </Typography>
+                        <Typography  variant='h5' sx={{color:'white' , textAlign:'center'}}> Unified market for buying </Typography>
+                        <Typography  variant='h5' sx={{color:'white' , textAlign:'center'}}> Selling real estate </Typography>
                     </Box>
                 </motion.div>   
                 <motion.div
@@ -46,9 +46,9 @@ function Manifesto() {
                 >
                     <Box id='pillars-wraper'  m={2} sx={{width:'350px' , height:'400px' ,  display:'flex' , flexDirection:'column' ,borderRadius:'15px 15px' , justifyContent:'center' , gap:'15px', backgroundImage:
                         "linear-gradient(to right, rgb(130, 113, 255), rgb(130, 133, 245))"}}>
-                        <Typography sx={{color:'white' , textAlign:'center'}} variant='h5'> <Handshake size={92} /></Typography>
-                        <Typography sx={{color:'white' , textAlign:'center'}} variant='h5'> Introduce the new Anyone mortgage that allows more starters </Typography>
-                        <Typography sx={{color:'white' , textAlign:'center'}} variant='h5'> renters to become homeowners. </Typography>
+                        <Typography p={2} sx={{color:'white' , textAlign:'center'}} variant='h5'> <Handshake size={92} /></Typography>
+                        <Typography p={2} sx={{color:'white' , textAlign:'center'}} variant='h5'> Introduce the new Anyone mortgage that allows more starters </Typography>
+                        <Typography p={2} sx={{color:'white' , textAlign:'center'}} variant='h5'> renters to become homeowners. </Typography>
                      
                     </Box>
                 </motion.div>   
@@ -60,9 +60,9 @@ function Manifesto() {
                     <Box id='pillars-wraper'  m={2} sx={{width:'350px' , height:'400px' , display:'flex' , flexDirection:'column' , borderRadius:'15px 15px' , justifyContent:'center' , gap:'15px', backgroundImage:
                         "linear-gradient(to right, rgb(130, 113, 255), rgb(130, 133, 245))" }}>
                          
-                         <Typography sx={{color:'white' , textAlign:'center' }} variant='h5'> <Coins size={92} /> </Typography>
+                         <Typography  sx={{color:'white' , textAlign:'center' }} variant='h5'> <Coins size={92} /> </Typography>
 
-                        <Typography sx={{color:'white' , textAlign:'center' }} variant='h5'> Engage in real estate asset repositioning to develop reasonably priced starter homes. </Typography>
+                        <Typography p={2} sx={{color:'white' , textAlign:'center' }} variant='h5'> Engage in real estate asset repositioning to develop reasonably priced starter homes. </Typography>
                     </Box>
                 </motion.div>  
 
